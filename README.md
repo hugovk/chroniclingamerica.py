@@ -6,7 +6,7 @@ chroniclingamerica.py
 ### Usage
 
 ```python
-from chroniclingamerica import ArticleFetcher
+from chroniclingamerica import ChronAm
 from pprint import pprint
 
 fetcher = ChronAm(search_term)
