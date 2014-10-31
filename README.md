@@ -11,7 +11,7 @@ from pprint import pprint
 
 fetcher = ChronAm(search_term)
 for item in fetcher.fetch():
-    # pprint(item)  # Or do something more interesting
+    pprint(item)  # Or do something more interesting
 ```
 
 Calling `fetch()` returns a generator of articles in JSON format. Articles are retrieved one [results] page at a time. 
