@@ -63,7 +63,7 @@ To get the total number of pages available, use `get_total_pages()`.
  u'url': u'http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.json'}
  ```
 
-The JSON given by `url` contains links to a JP2 image and PDF of the page, as well as OCR text and OCR metadata.
+The [JSON given by `url`](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.json) contains links to a [JP2 image](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.jp2) and [PDF](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.pdf) of the page, as well as [OCR text](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17/ocr.txt) and [OCR metadata](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17/ocr.xml).
 
 ### Parameters
 
