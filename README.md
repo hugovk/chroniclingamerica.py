@@ -60,10 +60,10 @@ To get the total number of pages available, use `get_total_pages()`.
  u'title': u'New-York tribune.',
  u'title_normal': u'new-york tribune.',
  u'type': u'page',
- u'url': u'http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.json'}
+ u'url': u'https://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.json'}
  ```
 
-The [JSON given by `url`](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.json) contains links to a [JP2 image](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.jp2) and [PDF](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.pdf) of the page, as well as [OCR text](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17/ocr.txt) and [OCR metadata](http://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17/ocr.xml).
+The [JSON given by `url`](https://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.json) contains links to a [JP2 image](https://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.jp2) and [PDF](https://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17.pdf) of the page, as well as [OCR text](https://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17/ocr.txt) and [OCR metadata](https://chroniclingamerica.loc.gov/lccn/sn83030214/1910-01-02/ed-1/seq-17/ocr.xml).
 
 ### Parameters
 
@@ -81,5 +81,5 @@ More search parameters.
 Thanks to [@zeroviscosity](https://github.com/zeroviscosity/) for the
 [Article fetcher for The Guardian newspaper's Open Platform API](https://github.com/zeroviscosity/guardian-article-fetcher),
 which this project is based on, and to 
-[The Library of Congress](http://www.loc.gov/) for [Chronicling America](http://chroniclingamerica.loc.gov/) and their 
-[API](http://chroniclingamerica.loc.gov/about/api/).
+[The Library of Congress](https://www.loc.gov/) for [Chronicling America](https://chroniclingamerica.loc.gov/) and their 
+[API](https://chroniclingamerica.loc.gov/about/api/).

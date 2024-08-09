@@ -3,7 +3,7 @@
 """
 API to search Chronicling America
 
-From http://chroniclingamerica.loc.gov/about/api/
+From https://chroniclingamerica.loc.gov/about/api/
 
     Introduction
 
@@ -61,7 +61,7 @@ import argparse
 import json
 import requests
 
-URL_FORMAT = "http://chroniclingamerica.loc.gov/search/pages/results/?%s"
+URL_FORMAT = "https://chroniclingamerica.loc.gov/search/pages/results/?%s"
 
 
 # cmd.exe cannot do Unicode so encode first
@@ -153,7 +153,7 @@ if __name__ == "__main__":
         print_it(text)
         print("-" * 80)
 
-        print('http://chroniclingamerica.loc.gov' + item['id'] +
+        print('https://chroniclingamerica.loc.gov' + item['id'] +
               "#words=" + args.searchterm)
 
 
