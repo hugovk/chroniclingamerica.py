@@ -84,7 +84,7 @@ class ChronAm():
 
     def get_total_pages(self):
         """Retrieves the total number of pages for the current operation"""
-        r = requests.get(self.url % 1)
+        r = requests.get(self.url % 1, timeout=10)
         resp = (json.loads(r.text))
         # Floats for rounding up in Py2
         total_items = float(resp['totalItems'])
@@ -103,7 +103,7 @@ class ChronAm():
         print('Fetching page %i of %i ... %f%%' % (
             page_number, self.total_pages, percent))
 
-        r = requests.get(self.url % page_number)
+        r = requests.get(self.url % page_number, timeout=10)
         resp = (json.loads(r.text))
         if len(resp['items']) > 0:
             return resp['items']
